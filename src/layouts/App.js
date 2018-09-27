@@ -11,7 +11,7 @@ export default class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      collapse: true,
+      collapse: false,
       current: 'home',
       num: 0,
       visible: false,

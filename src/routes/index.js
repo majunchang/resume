@@ -7,6 +7,7 @@ import About from '../components/About.js'
 import Skill from '../components/Skill.js'
 import Project from '../components/Project.js'
 import Contact from '../components/Contact.js'
+import OpenSource from '../components/OpenSource'
 
 export default (
   <Router history={hashHistory} >
@@ -16,6 +17,8 @@ export default (
       <Route path='skill' component={Skill} />
       <Route path='project' component={Project} />
       <Route path='contact' component={Contact} />
+      <Route path='blog' component={OpenSource} />
+      <Route path='opensource' component={OpenSource} />
     </Route>
   </Router>
 )

@@ -17,7 +17,7 @@ const Skill = () => {
   ]
   return (
     <div className='skill-container'>
-      <h1 className='skill-title'>擅长技术</h1>
+      <h1 className='skill-title'>专业技能</h1>
       <div className='skill-content'>
         {skillArray.map((message) => <AboutItem key={message.id} message={message} />)}
       </div>

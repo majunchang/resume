@@ -8,10 +8,13 @@ class NavMenu extends Component {
 
     const MenuData = [
       {name: 'home', desc: '首页'},
-      {name: 'about', desc: '关于我'},
+      {name: 'about', desc: '个人介绍'},
       {name: 'skill', desc: '专业技能'},
       {name: 'project', desc: '项目经验'},
+      {name: 'opensource', desc: '个人开源项目'},
+      {name: 'blog', desc: '原创博客文章'},
       {name: 'contact', desc: '联系我'}
+
     ]
 
     return (

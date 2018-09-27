@@ -51,20 +51,21 @@ export default class Contact extends React.Component {
                                 QQ: 2471978285
               </div>
             </div>
-            <a href='mailto:zzlwte@gmail.com' target='_blank' className='main-item'>
+            <div href='mailto:zzlwte@gmail.com' target='_blank' className='main-item'>
               <div className='item-icon'>
                 <i className='iconfont icon-email' />
               </div>
               <div className='item-content'>
                                 邮箱: 13012270529@163.com
               </div>
-            </a>
+            </div>
+
           </div>
           <div className='contact-other'>
             <p className='other-title'>其他方式</p>
             <div className='other-content'>
-              <a className='other-item' href='https://github.com/zzlw' target='_blank'>
-                <i className='iconfont icon-github' />
+              <a className='other-item' href='https://www.jianshu.com/u/995de587e99e' target='_blank'>
+                <img src='https://fuss10.elemecdn.com/4/c7/bbafe27adc892f3046e6978459bacpng.png' alt='' />
               </a>
               <a className='other-item' href='https://zhihu.com/people/zzlwte' target='_blank'>
                 <i className='iconfont icon-zhihu' />
